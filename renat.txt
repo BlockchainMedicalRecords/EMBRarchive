@@ -1,3 +1,0 @@
-- front end and back end application development for our ethereum Dapp's features
-- smart contract development using solidity
-~ 3/10/20
