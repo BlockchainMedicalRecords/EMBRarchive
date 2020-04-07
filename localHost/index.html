@@ -1,0 +1,252 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel = "stylesheet" href = "css/main.css">
+  <title>EMBR</title>
+</head>
+<body class="grey lighten-3"">
+
+  <!-- Navigation Bar -->
+  <nav class="z-depth-0 grey lighten-4">
+    <div class="nav-wrapper container">
+      
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        
+        <!--   <li class="logged-in">
+            <a href="./header.html" class="grey-text" id="logout">Main Page</a>
+          </li> -->
+          <li class="logged-out">
+            <a href="#" class="grey-text modal-trigger" data-target="modal-signup"> <strong> Sign Up</strong></a>
+          </li>
+          <li class="logged-in">
+            <a href="#" class="grey-text modal-trigger" data-target="modal-account"> <strong> Account </strong></a>
+          </li>
+          <li class="logged-out">
+            <a href="#" class="grey-text modal-trigger" data-target="modal-login"><strong> Log In </strong></a>
+          </li>
+          
+          <li class="logged-in">
+            <a href="#" class="grey-text" id="logout"> <strong > Log Out </strong></a>
+          </li>
+        </span>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- SIGN UP MODAL -->
+  <div id="modal-signup" class="modal">
+    <div class="modal-content">
+      <h4>Sign up</h4><br />
+       <form id="signup-form">
+        <div class="input-field">
+          <input type="email" id="signup-email" required />
+          <label for="signup-email">Email address</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="signup-password" required />
+          <label for="signup-password">Choose password</label>
+        </div> 
+        
+        
+        <button class="btn yellow darken-2 z-depth-0">Sign up</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- LOGIN MODAL -->
+  <div id="modal-login" class="modal">
+    <div class="modal-content">
+      <h4>Login</h4><br />
+      <form id="login-form">
+        <div class="input-field">
+          <input type="email" id="login-email" required />
+          <label for="login-email">Email address</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="login-password" required />
+          <label for="login-password">Your password</label>
+        </div> 
+        <button class="btn yellow darken-2 z-depth-0">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ACCOUNT MODAL -->
+  <div id="modal-account" class="modal">
+    <div class="modal-content center-align">
+      <h4>Account details</h4><br />
+      <div class="account-details"></div>
+    </div>
+  </div>
+
+
+	<div id="main">
+    <!-- <div id = "wrapper">
+		<div class="inner">
+	    <a href="index.html" class="logo">
+		      <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title"></span>
+      </a>
+    </div> -->
+			<header>
+			    <h1>
+             <center> A Streamlined Healthcare Experience </center>
+                
+          </h1>
+                            
+				  <p>
+              <center> Facilitating the assimilation of edge cutting technology
+                       into healthcare one user at a time. Starting with you! </center>
+          </p>
+        </header>
+			<section class="tiles">
+				<article class="style3">
+					<span class="image">
+						<img src="images/ourmission.png" alt="" />
+					</span>
+					<a href="generic.html">
+						<h2> Our Mission </h2>
+						<div class="content">
+							<p></p>
+							<p> <strong> Patients and the healthcare industry are both in dire need of tech modernization. 
+								As such, BMR offers several web services to accomplish said mondernization. </strong>
+							</p>
+						</div>
+					</a>
+				</article> 
+				<article class="style5">
+					<span class="image">
+						<img src="images/crypto.png" alt="">
+					</span>
+					<a href="https://blockgeeks.com/guides/what-is-cryptocurrency/">
+						<h2>What is Crypto Currency?</h2>
+						<div class="content">
+							<p></p>
+							<p> <strong>A quick dive into crypto currency and how it can affect your livelihood.</strong> </p>
+						</div>
+					</a>
+				</article>
+				<article class="style1">
+					<span class="image">
+						<img src="images/pic05.jpg" alt="" />
+					</span>
+					<a href="signUp.php">
+						<h2>Create an account</h2>
+						<div class="content">
+							<p></p>
+							<p> Start improving the quality of your health life, now </p>
+						</div>
+					</a>
+				</article>
+				<article class="style3">
+					<span class="image">
+						<img src="images/pic02.jpg" alt="" />
+					</span>
+					<a href="https://blockchainmedicalrecords.github.io">
+						<h2>The University Project</h2>
+						<div class="content">
+							<p> </p>
+							<p>A breakdown of the moving parts behind our senior capstone project: BMR. </p>
+						</div>
+					</a>
+				</article>
+				<article class="style5">
+					<span class="image">
+						<img src="images/pic08.jpg" alt="" />
+					</span>
+					<a href="generic.html">
+						<h2>Why Ethereum?</h2>
+						<div class="content">
+							<p> </p>
+							<p> Ethereum (ETH) is one of many crypto currencies. 
+								This is why we chose ETH to secure our payments and data </p>
+						</div>
+					</a>
+				</article>
+				<article class="style1">
+					<span class="image">
+						<img src="images/pic05.jpg" alt="" />
+					</span>
+					<a href="generic.html">
+						<h2> Sign In </h2>
+						<div class="content">
+							<p></p>
+							<p> Welcome home </p>
+						</div>
+					</a>
+				</article>
+				<article class="style3">
+					<span class="image">
+						<img src="images/pic02.jpg" alt="" />
+					</span>
+					<a href="generic.html">
+						<h2> Future Outlooks </h2>
+						<div class="content">
+							<p></p>
+							<p>Our next steps</p>
+						</div>
+					</a>
+				</article>
+				<article class="style5">
+					<span class="image">
+						<img src="images/pic08.jpg" alt="" />
+					</span>
+					<a href="generic.html">
+						<h2>Security</h2>
+						<div class="content">
+							<p></p>
+							<p>The security behind blockchain supported networks</p>
+						</div>
+					</a>
+				</article>
+				<article class="style1">
+					<span class="image">
+						<img src="images/pic05.jpg" alt="" />
+					</span>
+					<a href="generic.html">
+						<h2> Contact Us </h2>
+						<div class="content">
+							<p></p>
+							<p>Let us know what we can do better</p>
+						</div>
+					</a>
+				</article>
+				</section> 
+       
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+  <script>
+
+
+  var firebaseConfig = {
+        apiKey: "AIzaSyAF3EexdIC4-OSWUHkLt1LBu-mjwyNJkzY",
+        authDomain: "embr-d5c7e.firebaseapp.com",
+        databaseURL: "https://embr-d5c7e.firebaseio.com",
+        projectId: "embr-d5c7e",
+    };
+
+    firebase.initializeApp(config);
+    
+    // make auth and firestore references
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+
+    // update firestore settings
+    
+  </script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/auth.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
